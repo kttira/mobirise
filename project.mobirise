@@ -793,7 +793,7 @@
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColorRadio": true,
-            "bgColor": "#ff7f9f",
+            "bgColor": "#232323",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": false,
@@ -809,7 +809,12 @@
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-l"
+          "_anchor": "instagram-feed-block-l",
+          "_styles": {
+            ".inst__title": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
